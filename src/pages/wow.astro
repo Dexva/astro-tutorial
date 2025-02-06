@@ -1,6 +1,8 @@
 ---
-import { Image } from 'astro:assets';
 import cat from './cat.jpg';
+import '../styles/global.css';
+import Navigation from '../components/Navigation.astro';
+
 ---
 
 <html lang="en">
@@ -12,9 +14,7 @@ import cat from './cat.jpg';
 		<title>Astro</title>
 	</head>
 	<body>
-        <a href="/">Home</a>
-        <a href="/about/">About</a>
-        <a href="/blog/">Blog</a>
+        <Navigation />
 
 		<h1> happy birthday, lobster :3 </h1>
         <h3> thank you for being such a wonderful lobster </h3>
